@@ -17,9 +17,12 @@ export default function FooterSection() {
         >
           PRIVACY POLICY
         </button>
-        <Link href="/login" className="hover:text-white transition-colors">
+        {/* <Link href="/login" className="hover:text-white transition-colors">
           LOGIN
-        </Link>
+        </Link> */}
+        <span className="text-white text-shadow-sm text-shadow-blur-1 text-shadow-black">
+          Coming Soon!
+        </span>
       </div>
 
       <PrivacyModal 

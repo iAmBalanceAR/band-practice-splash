@@ -62,11 +62,14 @@ export default function FeaturesSection() {
           ))}
         </div>
         <div className='pt-16'>
-        <Link href="https://bandpracticecrm.com/auth/signup">
+        {/* <Link href="https://bandpracticecrm.com/auth/signup"> */}
           <Button size="lg" className="text-lg bg-blue-700  text-white hover:bg-blue-600 border-green-600 border">
-            <span className="text-white text-shadow-sm text-shadow-blur-1 text-shadow-black">Create Your Account</span>
+            <span className="text-white text-shadow-sm text-shadow-blur-1 text-shadow-black">
+              {/* Create Your Account */}
+              Available Soon!
+            </span>
             </Button>
-        </Link>
+        {/* </Link> */}
         </div>
       </div>
     </section>

@@ -69,11 +69,14 @@ export default function PricingSection() {
                   </li>
                 ))}
               </ul>
-              <Link href="https://bandpracticecrm.com/auth/signup">
+              {/* <Link href="https://bandpracticecrm.com/auth/signup"> */}
                 <Button className="w-full bg-green-700 text-white hover:bg-green-600 border-blue-500 border">
-                  <span className="text-white text-shadow-sm text-shadow-blur-1 text-shadow-black">Start 7-Day Trial</span>
+                <span className="text-white text-shadow-sm text-shadow-blur-1 text-shadow-black">
+                    {/* Start 7-Day Trial */}
+                    Available Soon!
+                </span>
                 </Button>
-              </Link>
+              {/* </Link> */}
             </motion.div>
           ))}
         </div>
