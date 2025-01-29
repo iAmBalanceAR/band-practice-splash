@@ -7,8 +7,8 @@ import "@/app/globals.css"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Your App Name",
-  description: "Your app description",
+  title: "Band Practice CRM",
+  description: "Solviing the Independant Musican's Tour Logistics. Do Music, Not Paperwork.",
 }
 
 export const viewport: Viewport = {
