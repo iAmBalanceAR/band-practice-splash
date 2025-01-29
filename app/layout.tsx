@@ -1,5 +1,6 @@
 import * as React from "react"
 import { Metadata, Viewport } from "next"
+import { Analytics } from "@vercel/analytics/react"
 import { Inter } from "next/font/google"
 import "@/app/globals.css"
 
@@ -25,7 +26,8 @@ export default function RootLayout({
       <body 
         className={inter.className}
         suppressHydrationWarning
-      >    
+      >
+        <Analytics />
         <div className="relative w-full min-h-screen overflow-y-auto overflow-x-hidden">
           {children}
         </div>
