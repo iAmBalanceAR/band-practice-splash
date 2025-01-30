@@ -17,7 +17,7 @@ export default function CTASection() {
         </h1>
           <p className="text-xl text-white mb-8 text-center">
           <span className="text-shadow-black text-shadow-blur-2 text-shadow-sm">Join all the other bands and artists who are already using Band Practice CRM. <br />
-          Get back to what you're passionate about - Making Great Music.
+          Get back to what you&apos;re passionate about - Making Great Music.
           </span>
           </p>
           <div className="space-x-4 text-center">

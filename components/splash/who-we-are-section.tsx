@@ -44,7 +44,7 @@ export default function WhoWeAreSection() {
                 Band Practice CRM is designed and developed by Jason Haynie, former owner of Balance Lighting Systems, a turnkey production company in Arkansas. With over 25 years of experience in the music industry, his behind-the-scenes perspective as a lighting designer has given him a unique understanding of the essential needs of touring acts, venue operators, and technical staff.
               </p>
               <p className="text-gray-200 text-lg leading-relaxed mt-4 text-shadow-md text-shadow-black">
-                Jason created Band Practice CRM to solve the complex challenges of tour logistics for independent artists and managers. Our platform streamlines everything from tour and gig workflow to financial analytics, production documentation, venue research, and lead management. As we grow, we'll continue to expand our toolset to better serve the evolving needs of touring professionals.<br />
+                Jason created Band Practice CRM to solve the complex challenges of tour logistics for independent artists and managers. Our platform streamlines everything from tour and gig workflow to financial analytics, production documentation, venue research, and lead management. As we grow, we&apos;ll continue to expand our toolset to better serve the evolving needs of touring professionals.<br />
                 <br />
                 We look forward to being part of your success story.
               </p>
