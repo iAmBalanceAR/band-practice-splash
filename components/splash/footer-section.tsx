@@ -1,7 +1,7 @@
 "use client"
 
 import { useState } from 'react'
-// import Link from 'next/link'
+import Link from 'next/link'
 import PrivacyModal from './privacy-modal'
 
 export default function FooterSection() {
@@ -17,12 +17,14 @@ export default function FooterSection() {
         >
           PRIVACY POLICY
         </button>
-        {/* <Link href="/login" className="hover:text-white transition-colors">
+        <span className="ml-4">|</span>
+        <Link href="https://app.banpracticecrm.com/auth/signin" className="hover:text-white transition-colors">
           LOGIN
-        </Link> */}
-        <span className="text-white text-shadow-sm text-shadow-blur-1 text-shadow-black">
-          Coming Soon!
-        </span>
+        </Link> 
+        <span className="ml-4">|</span>
+        <Link href="http://app.bandpracticecrm.com/auth/signup" className="hover:text-white transition-colors">
+          SIGN UP
+        </Link>         
       </div>
 
       <PrivacyModal 

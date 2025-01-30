@@ -13,6 +13,7 @@ interface HeroSlide {
   subtitle: string;
   bgImage: string;
   ctaText: string;
+  ctaLink: string;
 }
 
 const heroSlides: HeroSlide[] = [
@@ -21,35 +22,40 @@ const heroSlides: HeroSlide[] = [
     title: "Band Practice CRM",
     subtitle: "Do Music, Not Paperwork.",
     bgImage: "/images/slide1.jpg",
-    ctaText: "Find Out More"
+    ctaText: "Find Out More",
+    ctaLink: "features"
   },
   {
     id: 4,
-    title: "Get Back To The Music",
-    subtitle: "Solving the Tour Logistics Problem.",
+    title: "Focus On Your Music",
+    subtitle: "Let Us Handle The Tour Management",
     bgImage: "/images/slide2.jpg",
-    ctaText: "Learn More"
+    ctaText: "Learn More",
+    ctaLink: "features"
   },
   {
     id: 3,
     title: "Over 45,000 Venues",
-    subtitle: "Research Venues, Book Shows, Manage Your Tour",
+    subtitle: "Research, Book, and Manage Your Entire Tour In One Place",
     bgImage: "/images/slide3.jpg",
-    ctaText: "Get Started"
+    ctaText: "Get Started",
+    ctaLink: "pricing"
   },
   {
     id: 2,
-    title: "Essential For Tour Managers",
-    subtitle: "Manage Unlimited Tours.",
+    title: "Built From Experience",
+    subtitle: "25+ Years of Music Industry Expertise",
     bgImage: "/images/slide4.jpg",
-    ctaText: "Learn More"
+    ctaText: "Meet The Developer",
+    ctaLink: "who-we-are"
   },
   {
     id: 5,
-    title: "Built with Artists in Mind",
-    subtitle: "Stage Plots to Settlement Sheets - We've Got You Covered",
+    title: "Complete Tour Solution",
+    subtitle: "From Stage Plots to Route Planning, Everything You Need To Tour",
     bgImage: "/images/slide5.jpg",
-    ctaText: "Get Started"
+    ctaText: "Get Started",
+    ctaLink: "pricing"
   }
 ]
 
@@ -107,18 +113,18 @@ export default function HeroSection() {
             animate={{ opacity: 1, x: 0 }}
             exit={{ opacity: 0 }}
             transition={{ duration: 1.2, ease: "easeInOut" }}
-            className="fixed z-50"
+            className="fixed z-50 px-4 py-4"
             style={{ 
               transformOrigin: 'top left',
-              top: '24px',
-              left: '24px'
+              top: '0',
+              left: '0'
             }}
           >
             <Image 
               src="/images/logo-full.png" 
               alt="Band Practice CRM"
-              width={202}
-              height={37}
+              width={150}
+              height={40}
               priority
               className="scale-100"
             />
@@ -179,9 +185,9 @@ export default function HeroSection() {
             <Button 
               size="lg"
               className="bg-blue-700 text-white hover:bg-blue-600 hover:border-blue-600 text-sm px-8 border border-black"
-              onClick={() => scrollToSection('features')}
+              onClick={() => scrollToSection(heroSlides[currentSlide].ctaLink)}
             >
-              <span className='text-shadow-sm text-shadow-blur-4 text-shadow-black text-lg'>Learn More</span>
+              <span className='text-shadow-sm text-shadow-blur-4 text-shadow-black text-lg'>{heroSlides[currentSlide].ctaText}</span>
             </Button>
             <Button 
               size="lg"

@@ -2,6 +2,7 @@ import * as React from "react"
 import { Metadata, Viewport } from "next"
 import { Analytics } from "@vercel/analytics/react"
 import { Inter } from "next/font/google"
+import NavBar from "@/components/splash/nav-bar"
 import "@/app/globals.css"
 
 const inter = Inter({ subsets: ["latin"] })
@@ -28,6 +29,7 @@ export default function RootLayout({
         suppressHydrationWarning
       >
         <Analytics />
+        <NavBar />
         <div className="relative w-full min-h-screen overflow-y-auto overflow-x-hidden">
           {children}
         </div>
