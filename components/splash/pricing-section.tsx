@@ -1,9 +1,9 @@
-"use client"
+"use client";
 
-import { motion } from 'framer-motion'
-import { Button } from "@/components/ui/button"
-import { Check } from 'lucide-react'
-import Link from 'next/link'
+import { motion } from 'framer-motion';
+import { Button } from "@/components/ui/button";
+import { Check } from 'lucide-react';
+import Link from 'next/link';
 
 const plans = [
   // {
@@ -30,7 +30,7 @@ const plans = [
       "Stage Plot Generator"
     ]
   }
-]
+];
 
 
 export default function PricingSection() {
@@ -69,14 +69,16 @@ export default function PricingSection() {
                   </li>
                 ))}
               </ul>
-              <Link href="https://app.bandpracticecrm.com/auth/signup">
-                <Button className="w-full bg-green-700 text-white hover:bg-green-600 border-blue-500 border">
+              <Link href="#p">
+                <Button disabled={true} className="w-full bg-green-700 text-white hover:bg-green-600 border-blue-500 border">
                 <span className="text-white text-shadow-sm text-shadow-blur-1 text-shadow-black">
                     {/* Start 7-Day Trial */}
-                    Sign Up Now!
+                    {/* Sign Up Now! */}
+                    Coming Soon
                 </span>
                 </Button>
               </Link>
+
             </motion.div>
           ))}
         </div>
@@ -84,5 +86,5 @@ export default function PricingSection() {
       <span className="mt-4 text-xl text-white text-shadow-sm text-shadow-blur-4 text-shadow-black">Try everything free for 7 days.</span>
       </div>
     </section>
-  )
+  );
 } 

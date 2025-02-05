@@ -2,8 +2,8 @@
 
 import Image from 'next/image';
 import { motion } from 'framer-motion';
-import Link from 'next/link';
-import { Button } from '@/components/ui/button';
+// import Link from 'next/link';
+// import { Button } from '@/components/ui/button';
 
 export default function WhoWeAreSection() {
   return (
@@ -51,13 +51,13 @@ export default function WhoWeAreSection() {
             </div>
           </motion.div>
             <div className="flex justify-center">
-                <Link href="https://app.bandpracticecrm.com/auth/signup">
+                {/* <Link href="https://app.bandpracticecrm.com/auth/signup">
                     <Button className="w-32 items-center mt-8 bg-green-700 text-white hover:bg-green-600 border-blue-500 border">
                         <span className="text-white text-shadow-sm text-shadow-blur-1 text-shadow-black">
                             Sign Up Now!
                         </span>
                     </Button>
-                </Link>
+                </Link> */}
             </div>
         </div>
       </div>
