@@ -1,23 +1,43 @@
 "use client"
 
 import { motion } from 'framer-motion'
-import { Map, Calendar, BarChart3, MapPin,  } from 'lucide-react'
+import {  BarChart3, MapPin, Pin, Wrench, Workflow, FolderCode, Brain, TramFront } from 'lucide-react'
 // import { Button } from '@/components/ui/button'
 // import Link from 'next/link'
 
 const features = [
+  {
+    icon: <Pin className="w-12 h-12" />,
+    title: "Map Your Route",
+    description: "The Tour Route Managment tool lets you visualize your tour as it develops."
+  },
+  {
+    icon: <Wrench className="w-12 h-12" />,
+    title: "Professional Tools",
+    description: "Easy to use tools for Riders, Stage Plosts, Setlists, Inputs, Tech Requiremetns and more!"
+  },
+  {
+    icon: <Workflow className="w-12 h-12" />,
+    title: "FLow State",
+    description: "Every feature contributes to other features. You'll love the work flow from lead to gig."
+  },
+  {
+    icon: <FolderCode className="w-12 h-12" />,
+    title: "Active Development",
+    description: "New features and imporoved funnctinality using a rapid iterationn ideology.  Enhancing your productivity."
+  },
   {
     icon: <MapPin className="w-12 h-12" />,
     title: "Multi-Tour Dashboard",
     description: "Keep every tour organized in one place - no more scattered spreadsheets or missed details."
   },
   {
-    icon: <Map className="w-12 h-12" />,
+    icon: <Brain className="w-12 h-12" />,
     title: "Venue Intelligence",
     description: "Instant access to over 45,000 venues. Create leads and track your progress from discovery to stage."
   },
   {
-    icon: <Calendar className="w-12 h-12" />,
+    icon: <TramFront className="w-12 h-12" />,
     title: "Tour Smart",
     description: "Track every detail from load-in to payout. Never miss a soundcheck or settlement again."
   },
@@ -30,7 +50,7 @@ const features = [
 
 export default function FeaturesSection() {
   return (
-    <section id="features" className="py-20 bg-[url('/images/features.jpg')] bg-cover bg-right-bottom relative h-screen w-full overflow-hidden">
+    <section id="features" className="py-20 bg-[url('/images/slide1.jpg')] bg-cover bg-right-bottom relative h-screen w-full overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 items-center justify-center h-full relative z-10 flex flex-col">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -41,8 +61,7 @@ export default function FeaturesSection() {
           <h1 className="text-6xl md:text-8xl font-mono mb-4 text-center text-shadow-md text-shadow-black text-white">Features</h1>
           <p className="text-xl text-white"><span className="text-shadow-black text-shadow-sm">Everything you need to manage your tours</span></p>
         </motion.div>
-
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid md:grid-cols-2 grid-rows-2 lg:grid-cols-4 gap-8">
           {features.map((feature, index) => (
             <motion.div
               key={index}
