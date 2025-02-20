@@ -21,12 +21,12 @@ export default function CTASection() {
           </span>
           </p>
           <div className="space-x-4 text-center">
-            <Link href="https://bandpracticecrm.com/auth/signup">
+          <Link href="https://app.bandpracticecrm.com/auth/signup">
             <Button size="lg" className="text-lg bg-blue-700  text-white hover:bg-blue-600 border-green-600 border">
                 <span className="text-white text-shadow-sm text-shadow-blur-1 text-shadow-black">Get Started</span>
                 </Button>
             </Link>
-            <Link href="https://app.bandpracticecrm.com/auth/signin">
+            <Link href="https://app.bandpracticecrm.com/auth/signup">
               <Button size="lg" variant="outline"className="text-white  bg-green-700 border-blue-600 hover:border-blue-500 hover:text-white hover:bg-green-600  text-lg">
                 <span className="text-white text-shadow-sm text-shadow-blur-1 text-shadow-black">Sign In</span>
                 </Button>

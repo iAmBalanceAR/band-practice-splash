@@ -96,7 +96,7 @@ export default function PricingSection() {
                   </li>
                 ))}
               </ul>
-              <Link href="#p">
+              <Link href="https://app.bandpracticecrm.com/auth/signup">
                 <Button disabled={false} className="w-full bg-green-700 text-white hover:bg-green-600 border-blue-500 border">
                 <span className="text-white text-shadow-sm text-shadow-blur-1 text-shadow-black">
                     Start 7-Day Trial!!
