@@ -18,7 +18,7 @@ export default function FooterSection() {
           PRIVACY POLICY
         </button>
         <span className="ml-4">|</span>
-        <Link href="https://app.banpracticecrm.com/auth/signin" className="hover:text-white transition-colors">
+        <Link href="https://app.bandpracticecrm.com/auth/signin" className="hover:text-white transition-colors">
           LOGIN
         </Link> 
         <span className="ml-4">|</span>
