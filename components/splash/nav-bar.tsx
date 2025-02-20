@@ -40,7 +40,7 @@ export default function NavBar() {
     { name: 'Home', href: 'hero', isExternal: false },
     { name: 'Features', href: 'features', isExternal: false },
     { name: 'Who We Are', href: 'who-we-are', isExternal: false },
-    { name: 'Pricing', href: 'pricing', isExternal: false },
+    { name: 'Pricing', href: 'https://app.bandpracticecrm.com/pricing', isExternal: true },
     { name: 'Contact', href: 'https://app.bandpracticecrm.com/support/contact', isExternal: true }
   ];
 

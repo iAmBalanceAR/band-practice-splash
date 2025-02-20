@@ -2,8 +2,8 @@
 
 import Image from"next/image";
 import { motion } from "framer-motion";
-// import Link from &aposnext/link&apos;
-// import { Button } from &apos@/components/ui/button&apos;
+import { Button } from "@/components/ui/button";
+import Link from "next/link";
 
 export default function WhoWeAreSection() {
   return (
@@ -40,14 +40,6 @@ export default function WhoWeAreSection() {
             className="bg-[#030817]/50 border border-blue-700 rounded-md backdrop-blur-sm p-8"
           >
             <div className="prose prose-invert mx-auto">
-             {/* <p className="text-gray-200 text-lg leading-relaxed text-shadow-md text-shadow-black">
-                Band Practice CRM is designed and developed by Jason Haynie, former owner of Balance Lighting Systems, a turnkey production company in Arkansas. With over 25 years of experience in the music industry, his behind-the-scenes perspective as a lighting designer has given him a unique understanding of the essential needs of touring acts, venue operators, and technical staff.
-              </p>
-              <p className="text-gray-200 text-lg leading-relaxed mt-4 text-shadow-md text-shadow-black">
-                 Jason created Band Practice CRM to solve the complex challenges of tour logistics for independent artists and managers. Our platform streamlines everything from tour and gig workflow to financial analytics, production documentation, venue research, and lead management. As we grow, we&apos;ll continue to expand our toolset to better serve the evolving needs of touring professionals.<br />
-                <br />
-                We look forward to being part of your success story.
-              </p> */}
               <p className="text-gray-200 text-lg leading-relaxed text-shadow-md text-shadow-black pb-2">
               I had originally planned on filling this section with dry facts about my history in the music business. But the more I read it, the more I realized it missed the heart of my story. So, let me take you on a journey instead.
               </p><p className="text-gray-200 text-lg leading-relaxed text-shadow-md text-shadow-black pb-2">
@@ -72,13 +64,13 @@ export default function WhoWeAreSection() {
             </div>
           </motion.div>
             <div className="flex justify-center">
-                {/* <Link href="https://app.bandpracticecrm.com/auth/signup">
+           <Link href="https://app.bandpracticecrm.com/auth/signup">
                     <Button className="w-32 items-center mt-8 bg-green-700 text-white hover:bg-green-600 border-blue-500 border">
                         <span className="text-white text-shadow-sm text-shadow-blur-1 text-shadow-black">
                             Sign Up Now!
                         </span>
                     </Button>
-                </Link> */}
+                </Link>
             </div>
         </div>
       </div>
