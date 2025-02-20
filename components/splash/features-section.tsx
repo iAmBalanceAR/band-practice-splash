@@ -2,8 +2,8 @@
 
 import { motion } from 'framer-motion'
 import {  BarChart3, MapPin, Pin, Wrench, Workflow, FolderCode, Brain, TramFront } from 'lucide-react'
-// import { Button } from '@/components/ui/button'
-// import Link from 'next/link'
+import { Button } from '@/components/ui/button'
+import Link from 'next/link'
 
 const features = [
   {
@@ -81,13 +81,13 @@ export default function FeaturesSection() {
           ))}
         </div>
         <div className='pt-16'>
-          {/* <Link href="https://app.bandpracticecrm.com/auth/signup">
+        <Link href="https://app.bandpracticecrm.com/auth/signup">
             <Button size="lg" className="text-lg bg-blue-700  text-white hover:bg-blue-600 border-green-600 border">
                 <span className="text-white text-shadow-sm text-shadow-blur-1 text-shadow-black">
                   Create Your Account
                 </span>
               </Button>
-          </Link>  */}
+          </Link> 
         </div>
       </div>
     </section>

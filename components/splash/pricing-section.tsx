@@ -21,17 +21,19 @@ const plans = [
     name: "Tour Manager",
     price: "$20",
     interval: " monthly",
-    description: "Band Practice CRM helps independent musicians deploy tour logistics in an easy, straightforward way. Solving the problems of logistics, scheduling, and communication with clients and venues.",
+    description: "Band Practice CRM helps independent musicians deploy tour logistics in an easy, straightforward way. Solving the problems of logistics, scheduling, and documentation with clients and venues.",
     features: [
       "Advanced Tour Management",
       "Track and Manage Unlimited Tours",
       "Research Over 45,000 Venues",
       "Advanced Lead Management",
-      "Data Tracking and Analytics",
+      "Create Complete Rider Paperwork",
       "Stage Plot Generator",
       "Advanced Tour Routing",
-      "Document Generation"    ]
+      "Document Generation",
+      "Data Tracking and Analytics"   ]
 }
+
 //   {
 //     name: "Tour Manager",
 //     price: "$180",
@@ -95,11 +97,11 @@ export default function PricingSection() {
                 ))}
               </ul>
               <Link href="#p">
-                <Button disabled={true} className="w-full bg-green-700 text-white hover:bg-green-600 border-blue-500 border">
+                <Button disabled={false} className="w-full bg-green-700 text-white hover:bg-green-600 border-blue-500 border">
                 <span className="text-white text-shadow-sm text-shadow-blur-1 text-shadow-black">
-                    {/* Start 7-Day Trial */}
-                    {/* Sign Up Now! */}
-                    Coming Soon
+                    Start 7-Day Trial!!
+                    {/* Sign Up Now!
+                    Coming Soon */}
                 </span>
                 </Button>
               </Link>
