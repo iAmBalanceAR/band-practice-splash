@@ -55,11 +55,11 @@ export default function WhoWeAreSection() {
                 </p><p className="text-gray-200 text-lg leading-relaxed text-shadow-md text-shadow-black pb-2">
                 This isn't just another app. It's a lifeline for independent artists, born from real-world experience and late-night brainstorming sessions. It's every lesson I've learned, every mistake I've made, distilled into a powerful tool that handles the boring stuff so bands can focus on what matters – the music.
               </p><p className="text-gray-200 text-lg leading-relaxed text-shadow-md text-shadow-black pb-2">
-              From creating killer stage plots to managing complex tour logistics, Band Practice CRM is the silent roadie every band wishes they had. It&aposs the culmination of my journey, from DJ booths to production rigs to coding marathons.
+              From creating killer stage plots to managing complex tour logistics, Band Practice CRM is the silent roadie every band wishes they had. It's the culmination of my journey, from DJ booths to production rigs to coding marathons.
               </p><p className="text-gray-200 text-lg leading-relaxed text-shadow-md text-shadow-black pb-2">
               I'm not asking for your sympathy. I'm offering you a chance to revolutionize the way you manage your music career. Give it a shot – scroll down to the pricing section and grab a 7-day all-access pass on me. If it doesn't blow your mind, walk away. But I have a feeling you'll find it's the missing piece in your rock and roll puzzle.
               </p><p className="text-gray-200 text-lg leading-relaxed text-shadow-md text-shadow-black">
-              This is more than just a product launch for me. It's a way to give back to the industry that&aposs been my home for decades. So take it for a spin, and if you need anything, drop me a line at jason@bandpracticecrm.com. Let's keep the music playing, together.
+              This is more than just a product launch for me. It's a way to give back to the industry that's been my home for decades. So take it for a spin, and if you need anything, drop me a line at jason@bandpracticecrm.com. Let's keep the music playing, together.
               </p>
             </div>
           </motion.div>
