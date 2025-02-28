@@ -9,22 +9,22 @@ const features = [
   {
     icon: <Pin className="w-12 h-12" />,
     title: "Map Your Route",
-    description: "The Tour Route Managment tool lets you visualize your tour as it develops."
+    description: "The Tour Route Management tool lets you visualize your tour as it develops."
   },
   {
     icon: <Wrench className="w-12 h-12" />,
     title: "Professional Tools",
-    description: "Easy to use tools for Riders, Stage Plosts, Setlists, Inputs, Tech Requiremetns and more!"
+    description: "Easy to use tools for Riders, Stage Plots, Setlists, Inputs, Tech Requirements and more!"
   },
   {
     icon: <Workflow className="w-12 h-12" />,
-    title: "FLow State",
-    description: "Every feature contributes to other features. You'll love the work flow from lead to gig."
+    title: "Flow State",
+    description: "Every feature contributes to other features. You'll love the workflow from lead to gig."
   },
   {
     icon: <FolderCode className="w-12 h-12" />,
     title: "Active Development",
-    description: "New features and imporoved funnctinality using a rapid iterationn ideology.  Enhancing your productivity."
+    description: "New features and improved functionality using a rapid iteration ideology. Enhancing your productivity."
   },
   {
     icon: <MapPin className="w-12 h-12" />,
@@ -50,8 +50,8 @@ const features = [
 
 export default function FeaturesSection() {
   return (
-    <section id="features" className="py-20 bg-[url('/images/slide1.jpg')] bg-cover bg-right-bottom relative h-screen w-full overflow-hidden">
-      <div className="max-w-7xl mx-auto px-4 items-center justify-center h-full relative z-10 flex flex-col">
+    <section id="features" className="py-20 bg-[url('/images/slide1.jpg')] bg-cover bg-right-bottom relative w-full overflow-hidden">
+      <div className="max-w-7xl mx-auto px-4 items-center justify-center relative z-10 flex flex-col">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -80,7 +80,7 @@ export default function FeaturesSection() {
             </motion.div>
           ))}
         </div>
-        <div className='pt-16'>
+        <div className='pt-16 pb-16'>
         <Link href="https://app.bandpracticecrm.com/auth/signup">
             <Button size="lg" className="text-lg bg-blue-700  text-white hover:bg-blue-600 border-green-600 border">
                 <span className="text-white text-shadow-sm text-shadow-blur-1 text-shadow-black">

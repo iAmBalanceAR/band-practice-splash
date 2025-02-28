@@ -1,6 +1,7 @@
+/* eslint-disable react/no-unescaped-entities */
 "use client";
 
-import Image from"next/image";
+import Image from "next/image";
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
@@ -30,7 +31,7 @@ export default function WhoWeAreSection() {
             className="text-center mb-8"
           >
             <h1 className="text-6xl md:text-8xl font-mono mb-4 text-center text-shadow-md text-shadow-black text-white">Who <span className="text-5xl line-through">We Are</span> I am</h1>
-            <p className="text-xl text-white"><span className="text-shadow-black text-shadow-sm">From Nightclubs to Notebooks: A Roadie's Revolution</span></p>
+            <p className="text-xl text-white"><span className="text-shadow-black text-shadow-sm">From Stage to Software: A Music Industry Veteran's Mission</span></p>
           </motion.div>
 
           <motion.div
@@ -41,39 +42,48 @@ export default function WhoWeAreSection() {
           >
             <div className="prose prose-invert mx-auto">
               <p className="text-gray-200 text-lg leading-relaxed text-shadow-md text-shadow-black pb-2">
-              I had originally planned on filling this section with dry facts about my history in the music business. But the more I read it, the more I realized it missed the heart of my story. So, let me take you on a journey instead.
-              </p><p className="text-gray-200 text-lg leading-relaxed text-shadow-md text-shadow-black pb-2">
-                Picture this: It's the early 2000s, and the nightclubs of the deep South are pulsing with energy. That's where you'd find me, Jason Haynie, a college dropout with nothing but a passion for music and a knack for reading crowds. For 12 years, I was the puppet master of the dance floor, using beats and rhythms to orchestrate the ebb and flow of partygoers. It wasn't just a job; it was a science, a mathematical equation of sound and movement.
-                </p><p className="text-gray-200 text-lg leading-relaxed text-shadow-md text-shadow-black pb-2">
-                But the late nights took their toll, and I found myself craving a new challenge. With nothing but grit and a cobbled-together set of equipment, I launched my own production company. Fashion shows, festivals, you name it – I dove in headfirst, learning on the fly and soaking up every experience like a sponge.
-                </p><p className="text-gray-200 text-lg leading-relaxed text-shadow-md text-shadow-black pb-2">
-                Life has a way of throwing curveballs, though. In 2021, a severe infection cost me both my legs below the knee. Just like that, my days of hauling gear and running shows came to an abrupt end. But here's the thing about the music industry – it gets in your blood. So, I adapted. I started running sound at local venues, and that's when I noticed something.
-                </p><p className="text-gray-200 text-lg leading-relaxed text-shadow-md text-shadow-black pb-2">
-                Night after night, I watched talented, independent bands pour their hearts out on stage. These were the road warriors, cramming into old vans, living gig to gig, fueled by nothing but passion and dreams. But there was a problem. For all their musical talent, they were drowning in a sea of logistical nightmares. Missed opportunities, botched gigs, all because the right information wasn't in the right place at the right time.
-                </p><p className="text-gray-200 text-lg leading-relaxed text-shadow-md text-shadow-black pb-2">
-                That's when it hit me. I couldn't tour anymore, but I could use my experience to help those who could. Drawing on my tech background and years in the trenches, I set out to create a solution. The result? Band Practice CRM.
-                </p><p className="text-gray-200 text-lg leading-relaxed text-shadow-md text-shadow-black pb-2">
-                This isn't just another app. It's a lifeline for independent artists, born from real-world experience and late-night brainstorming sessions. It's every lesson I've learned, every mistake I've made, distilled into a powerful tool that handles the boring stuff so bands can focus on what matters – the music.
-              </p><p className="text-gray-200 text-lg leading-relaxed text-shadow-md text-shadow-black pb-2">
-              From creating killer stage plots to managing complex tour logistics, Band Practice CRM is the silent roadie every band wishes they had. It's the culmination of my journey, from DJ booths to production rigs to coding marathons.
-              </p><p className="text-gray-200 text-lg leading-relaxed text-shadow-md text-shadow-black pb-2">
-              I'm not asking for your sympathy. I'm offering you a chance to revolutionize the way you manage your music career. Give it a shot – scroll down to the pricing section and grab a 7-day all-access pass on me. If it doesn't blow your mind, walk away. But I have a feeling you'll find it's the missing piece in your rock and roll puzzle.
-              </p><p className="text-gray-200 text-lg leading-relaxed text-shadow-md text-shadow-black">
-              This is more than just a product launch for me. It's a way to give back to the industry that's been my home for decades. So take it for a spin, and if you need anything, drop me a line at jason@bandpracticecrm.com. Let's keep the music playing, together.
+                Behind every piece of software is a story. Band Practice CRM wasn't born in a boardroom or dreamed up by investors—it emerged from decades in the trenches of the music industry. Here's how it happened.
+              </p>
+              <p className="text-gray-200 text-lg leading-relaxed text-shadow-md text-shadow-black pb-2">
+                The early 2000s: The bass thumps through packed nightclubs across the deep South. That's where I—Jason Haynie—found my first home in music. For 12 years, I orchestrated dance floors like a conductor, transforming packed rooms into living, breathing organisms through sound. Each night was a mathematical equation of beats, drops, and crowd psychology.
+              </p>
+              <p className="text-gray-200 text-lg leading-relaxed text-shadow-md text-shadow-black pb-2">
+                When the DJ booth couldn't contain my ambitions anymore, I built a production company from scratch. Armed with secondhand gear and relentless determination, I scaled up to producing fashion shows, festivals, and everything in between. Every technical disaster and logistical nightmare became a lesson I'd later need.
+              </p>
+              <p className="text-gray-200 text-lg leading-relaxed text-shadow-md text-shadow-black pb-2">
+                Then 2021 hit me with the ultimate curveball—a severe infection that took both my legs below the knee. Overnight, my days of hauling gear and running shows vanished. But you can't erase decades of music industry DNA that easily.
+              </p>
+              <p className="text-gray-200 text-lg leading-relaxed text-shadow-md text-shadow-black pb-2">
+                While running sound at local venues during my recovery, I witnessed something that lit a fire in me. Night after night, brilliant independent artists would pour their souls into performances, only to be sabotaged by preventable logistical chaos. Wrong gear lists. Missing stage plots. Venue details lost in email threads. The music was transcendent—but the business side was breaking them.
+              </p>
+              <p className="text-gray-200 text-lg leading-relaxed text-shadow-md text-shadow-black pb-2">
+                That's when lightning struck. I couldn't tour anymore, but I could transform every hard-earned lesson from my career into something that could save these artists from the same pitfalls. Drawing on my technical background and decades in the trenches, Band Practice CRM was born.
+              </p>
+              <p className="text-gray-200 text-lg leading-relaxed text-shadow-md text-shadow-black pb-2">
+                This isn't software—it's survival gear for independent musicians. Every feature addresses a real disaster I've witnessed or experienced firsthand. Every workflow solves a problem that's derailed countless shows. It handles the chaos so you can focus on creating magic.
+              </p>
+              <p className="text-gray-200 text-lg leading-relaxed text-shadow-md text-shadow-black pb-2">
+                From generating professional stage plots to managing the complex logistics of touring, Band Practice CRM is the road-hardened crew member you've always needed—one that fits in your pocket and never asks for a per diem.
+              </p>
+              <p className="text-gray-200 text-lg leading-relaxed text-shadow-md text-shadow-black pb-2">
+                I'm not asking for your sympathy—I'm offering you the culmination of my 20+ year odyssey through every level of the music industry. Take it for a 7-day test drive, completely free. If it doesn't transform how you manage your music career, walk away. But I suspect you'll find it's the missing piece that turns your passion into a sustainable reality.
+              </p>
+              <p className="text-gray-200 text-lg leading-relaxed text-shadow-md text-shadow-black">
+                This isn't just business for me—it's my way of staying connected to the industry that shaped my life. When you succeed, I succeed. Questions or feedback? Hit me directly at jason@bandpracticecrm.com. Let's keep the music playing, together.
               </p>
             </div>
           </motion.div>
-            <div className="flex justify-center">
-           <Link href="https://app.bandpracticecrm.com/auth/signup">
-                    <Button className="w-32 items-center mt-8 bg-green-700 text-white hover:bg-green-600 border-blue-500 border">
-                        <span className="text-white text-shadow-sm text-shadow-blur-1 text-shadow-black">
-                            Sign Up Now!
-                        </span>
-                    </Button>
-                </Link>
-            </div>
+          <div className="flex justify-center">
+            <Link href="https://app.bandpracticecrm.com/auth/signup">
+              <Button size="lg" className="text-lg w-32 items-center mt-8 bg-green-700 text-white hover:bg-green-600 border-blue-500 border">
+                <span className="text-white text-shadow-sm text-shadow-blur-1 text-shadow-black">
+                  Start Free Trial
+                </span>
+              </Button>
+            </Link>
+          </div>
         </div>
       </div>
     </section>
   );
-} 
+}

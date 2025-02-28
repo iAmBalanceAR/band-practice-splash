@@ -54,7 +54,7 @@ const plans = [
 export default function PricingSection() {
   return (
     <section id="pricing" className="py-20 bg-[url('/images/pricing.jpg')] bg-cover bg-left-bottom h-auto w-full overflow-hidden">
-      <div className="max-w-7xl mx-auto px-4  items-center justify-center h-full relative z-10">
+      <div className="max-w-7xl mx-auto px-4 items-center justify-center h-full relative z-10">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -64,9 +64,10 @@ export default function PricingSection() {
           <h1 className="text-6xl md:text-8xl font-mono mb-4 text-center text-shadow-md text-shadow-black text-white">Tour Smart</h1>
           <span className="text-xl text-white text-shadow-sm text-shadow-blur-4 text-shadow-black">Professional tour management at an indie band price.</span>
           <div className="mx-auto text-center w-full mt-4 text-xl text-white text-shadow-sm text-shadow-blur-4 text-shadow-black">Try everything free for 7 days.</div>
+          <div className="mx-auto text-center w-full mt-4 text-2xl text-[#FF6347] text-shadow-sm text-shadow-blur-4 text-shadow-black">No Credit Card Required.</div>
         </motion.div>
         <div className="align-center justify-center items-center w-full">
-        <div className="w-[30%] min-w-[240px] mx-auto relative grid  gap-4">
+        <div className="w-full sm:w-[80%] md:w-[60%] lg:w-[50%] max-w-md mx-auto relative grid gap-4">
           {plans.map((plan, index) => (
             <motion.div
               key={index}

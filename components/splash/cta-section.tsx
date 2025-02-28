@@ -15,11 +15,14 @@ export default function CTASection() {
         >
         <h1 className="text-6xl md:text-8xl font-mono mb-4 text-center text-shadow-md text-shadow-black text-white">Easy Tour Management!
         </h1>
-          <p className="text-xl text-white mb-8 text-center">
+          <p className="text-xl text-white mb-2 text-center">
           <span className="text-shadow-black text-shadow-blur-2 text-shadow-sm">Join all the other bands and artists who are already using Band Practice CRM. <br />
-          Get back to what you&apos;re passionate about - Making Great Music.
+          Get back to what you&apos;re passionate about - Making Great Music.<br />
           </span>
           </p>
+          <div className="font-bold text-2xl text-white text-center mb-8">
+            <span className="text-shadow-black text-shadow-blur-2 text-shadow-sm">Tour Smart.</span>
+          </div>
           <div className="space-x-4 text-center">
           <Link href="https://app.bandpracticecrm.com/auth/signup">
             <Button size="lg" className="text-lg bg-blue-700  text-white hover:bg-blue-600 border-green-600 border">
