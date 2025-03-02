@@ -5,7 +5,7 @@ import { motion, AnimatePresence } from 'framer-motion'
 import { Button } from "@/components/ui/button"
 import { ChevronDown, ChevronUp } from 'lucide-react'
 import Image from 'next/image'
-
+import { SocialShareToolbar } from './social-share-toolbar'
 
 interface HeroSlide {
   id: number;
@@ -128,6 +128,7 @@ export default function HeroSection() {
 
   return (
     <div className="relative h-screen w-full overflow-hidden">
+      <SocialShareToolbar />
       {/* Fixed Logo */}
       <AnimatePresence>
         {hasAnimatedLogo && (
