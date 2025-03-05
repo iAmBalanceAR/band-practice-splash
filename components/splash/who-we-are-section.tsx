@@ -75,7 +75,7 @@ export default function WhoWeAreSection() {
           </motion.div>
           <div className="flex justify-center">
             <Link href="https://app.bandpracticecrm.com/auth/signup">
-              <Button size="lg" className="text-lg w-32 items-center mt-8 bg-green-700 text-white hover:bg-green-600 border-blue-500 border">
+              <Button size="lg" className="text-lg pl-4 pr-4 items-center mt-8 bg-green-700 text-white hover:bg-green-600 border-blue-500 border">
                 <span className="text-white text-shadow-sm text-shadow-blur-1 text-shadow-black">
                   Start Free Trial
                 </span>
