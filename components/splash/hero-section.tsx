@@ -3,7 +3,7 @@
 import { useState, useEffect } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { Button } from "@/components/ui/button"
-import { ChevronDown, ChevronUp } from 'lucide-react'
+import { ChevronDown, ChevronUp, CheckCircle } from 'lucide-react'
 import Image from 'next/image'
 import { SocialShareToolbar } from './social-share-toolbar'
 
@@ -64,6 +64,14 @@ const heroSlides: HeroSlide[] = [
     bgImage: "/images/slide2.jpg",
     ctaText: "Get Started",
     ctaLink: "pricing"
+  },
+  {
+    id: 7,
+    title: "Professional Tech Riders in Seconds",
+    subtitle: "Stop Wrestling with Word Docs. Generate Beautiful, Professional Tech Riders Instantly.",
+    bgImage: "/images/tech-rider-bg.jpg",
+    ctaText: "See Example",
+    ctaLink: "tech-rider-demo"
   }
 ]
 
@@ -261,6 +269,38 @@ export default function HeroSection() {
           </motion.div>
         )}
       </AnimatePresence>
+
+      <RiderFeatureHighlight />
     </div>
+  )
+}
+
+function RiderFeatureHighlight() {
+  return (
+    <motion.div
+      initial={{ opacity: 0, y: 20 }}
+      animate={{ opacity: 1, y: 0 }}
+      className="absolute bottom-8 right-8 bg-black/40 backdrop-blur-sm rounded-xl p-4 max-w-sm"
+    >
+      <h3 className="text-lg font-bold text-white mb-2">Tech Rider Features:</h3>
+      <ul className="text-white/90 text-sm space-y-2">
+        <li className="flex items-center gap-2">
+          <CheckCircle className="w-4 h-4 text-green-400" />
+          Stage Plot Generator
+        </li>
+        <li className="flex items-center gap-2">
+          <CheckCircle className="w-4 h-4 text-green-400" />
+          Input Lists
+        </li>
+        <li className="flex items-center gap-2">
+          <CheckCircle className="w-4 h-4 text-green-400" />
+          Power Requirements
+        </li>
+        <li className="flex items-center gap-2">
+          <CheckCircle className="w-4 h-4 text-green-400" />
+          Professional PDF Export
+        </li>
+      </ul>
+    </motion.div>
   )
 } 
